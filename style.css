@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family:'OutFit';
+    background: linear-gradient(#ffdad5, #fff7f9);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.content-left{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #D63484;
+    width: fit-content;
+    height: 70vh;
+    padding: 20px;
+    border-radius: 20px;
+
+
+}
+.content-left-title h1{
+    font-size: 1.5rem;
+    font-weight: 600px;
+    color:whitesmoke;
+
+}
+.content-left hr{
+    width: 100px;
+    height: 5px;
+    background-color: hsl(319, 100%, 50%);
+    border-radius: 10px;
+    border: none;
+}
+.content-input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: start;
+    padding: 10px;
+}
+.content-input:focus{
+    border: 1px solid #ff994f
+}
+
+.content-left textarea{
+    height: 190px;
+    
+}
+button{
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 100px;
+    border: none;
+    background:linear-gradient(45deg, #398fa0, #86d377d4);
+    font-size: 1rem;
+    gap: 20px;
+}
+button img{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 10px;
+}
+.content-right{
+    width: 500px;
+    height: 100vh;
+
+    /* background-color: #c144cf; */
+}
+.content-right img{
+    width: 100%;
+   height: 090%;
+    
+}
+
+@media (max-width:700px){
+    .content-right img{
+        display: flex;
+        flex-direction: column;
+    }
+}
